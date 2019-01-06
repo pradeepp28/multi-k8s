@@ -1,6 +1,6 @@
 {
     "AWSEBDockerrunVersion": 2,
-    "containerDefinitios": [
+    "containerDefinitions": [
         {
             "name": "client",
             "image": "pradeepp28/multi-client",
