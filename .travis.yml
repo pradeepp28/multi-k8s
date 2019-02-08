@@ -21,7 +21,7 @@ script:
   - docker run pradeepp28/react-test npm test -- --coverage
 
 deploy:
-  provide: script
+  provider: script
   script: bask ./deploy.sh
   on:
     branch: master
